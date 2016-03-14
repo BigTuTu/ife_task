@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>the first task in IFE</title>
+</head>
+<body>
+    <h1 align="center">Bigtutu Homepage</h1>
+    <nav>
+        先了解我
+        <ul>
+            <li><a href="https://bigtutu.github.io/">我的主页</a></li>
+            <li><a href="https://github.com/BigTuTu">我的github</a></li>
+            <li><a href="http://weibo.com/3894480402/profile?topnav=1&wvr=6&is_all=1">我的微博</a></li>
+            <li><a href="https://www.zhihu.com/people/zhen-da-tu-tu">我的知乎</a></li>
+        </ul>
+    </nav>
+    <h1>我的主页制作过程</h1>
+    <h2>github+hexo+next</h2>
+    <p>通过GitHub+Hexo+Next搭建独立个人博客，免费独立易操作，
+        主要是简洁，很简洁，非常简洁！让人看着非常舒服。所以我花了一天半的时间，做了这样一件事。
+        <br>
+        可以按照<a href="http://www.jianshu.com/p/4b4390eb0e35">教程</a>去做。<br>
+
+        下面简单说下我遇到的问题，而教程上没有的：
+        <ul>
+        <li>-$ npm install -g hexo-cli安装不成功，是因为没有到对应的根目录下启动git</li>
+
+        <li>-Localhost:4000没有作用是因为端口号被占用，通过$ hexo server -p 5000,
+        修改端口号即可，在本地搭建</li>
+
+        <li>-部署不成功：3.0之后版本的是git+ssh地址，还要注意空格
+        eg: deploy:
+        type: git
+        repository: git@github.com:BigTuTu/bigtutu.github.io.git</li>
+
+        <li>我选择的是next主题：修改完善，可以参考官网：http://theme-next.iissnan.com/</li>
+        <br>
+        个人的博客的基本雏形已经有了，还有很多细节可以优化，我在后面学习中慢慢完善。<br>
+        <img src="http://ww2.sinaimg.cn/large/7ea7e017gw1eewsq9yyobj21400p0gti.jpg" height="350" width="400" alt="">
+        </ul>
+    </p>
+
+    <h1>好好学习</h1>
+    <h2>天天向上</h2>
+    <p>好好学习，天天向上。好好学前端，放松一下：<a href="http://www.mgtv.com/v/1/18/f/3031699.html">这里是湖南卫视综艺节目天天向上</a>hah</p>
+    <img src="http://npic7.edushi.com/cn/zixun/zh-chs/2015-10/30/041e46ecd4d34cdb8fef7ab5dce0cdd7.jpg" alt="">
+
+    <h1>最后一篇文章</h1>
+    <h2>心灵鸡汤</h2>
+    <h3>简单道理</h3>
+    <p>从前，有两个饥饿的人得到了一位长者的恩赐：一根鱼竿和一篓鲜活硕大的鱼。其中，一个人要了一篓鱼，另一个人要了一根鱼竿，于是他们分道扬镳了。得到鱼的人原地就用干柴搭起篝火煮起了鱼，他狼吞虎咽，还没有品出鲜鱼的肉香，转瞬间，连鱼带汤就被他吃了个精光，不久，他便饿死在空空的鱼篓旁。另一个人则提着鱼竿继续忍饥挨饿，一步步艰难地向海边走去，可当他已经看到不远处那片蔚蓝色的海洋时，他浑身的最后一点力气也使完了，他也只能眼巴巴地带着无尽的遗憾撒手人间。
+        　　又有两个饥饿的人，他们同样得到了长者恩赐的一根鱼竿和一篓鱼。只是他们并没有各奔东西，而是商定共同去找寻大海，他俩每次只煮一条鱼，他们经过遥远的跋涉，来到了海边，从此，两人开始了捕鱼为生的日子，几年后，他们盖起了房子，有了各自的家庭、子女，有了自己建造的渔船，过上了幸福安康的生活。
+        　　一个人只顾眼前的利益，得到的终将是短暂的欢愉;一个人目标高远，但也要面对现实的生活。只有把理想和现实有机结合起来，才有可能成为一个成功之人。有时候，一个简单的道理，却足以给人意味深长的生命启示。</p><br>
+    <p>
+    学习分类：
+        <ol>
+        <li>学霸</li>
+        <li>学渣</li>
+        <li>学中</li>
+    </ol>
+    <table border="1">
+        <tr>
+            <th>学霸</th>
+            <th>学渣</th>
+            <th>学中</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>50</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>90</td>
+            <td>30</td>
+            <td>73</td>
+        </tr>
+    </table>
+    </p><br>
+
+    <h1>敢不敢填一下表单</h1>
+    <h2>侧栏注册一下</h2>
+    <form action="">
+        请输入邮箱地址：<input type="email" name="user_email"><br>
+        <p>邮箱地址请安要求格式输入</p>
+        请输入密码：<input type="password" name="user_password">请重复输入密码：<input type="password">
+        <br>密码是6-16位英文数字 <br>
+        性别：<input type="radio" name="sex" value="male">男 <input type="radio" name="sex" value="female">女
+
+        &nbsp&nbsp
+        城市: <select name="city" id="">
+        <option value="beijing">北京</option>
+        <option value="wuhan">武汉</option>
+        <option value="shanghai">上海</option>
+        <option value="hangzhou">杭州</option>
+    </select>
+
+        &nbsp&nbsp
+        爱好：<input type="checkbox" name="sports">运动
+        <input type="checkbox" name="arts">艺术
+        <input type="checkbox" name="programming">编程
+
+        个人描述：<textarea rows="5" cols="10"></textarea>
+        <input type="submit" value="确认提交">
+    </form>
+
+</body>
+</html>
